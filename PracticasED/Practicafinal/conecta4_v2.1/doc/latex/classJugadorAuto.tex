@@ -1,0 +1,179 @@
+\hypertarget{classJugadorAuto}{\subsection{Referencia de la Clase Jugador\-Auto}
+\label{classJugadorAuto}\index{Jugador\-Auto@{Jugador\-Auto}}
+}
+
+
+{\ttfamily \#include $<$Jugador\-Auto.\-hpp$>$}
+
+\subsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classJugadorAuto_a28f4b4c52165488379729d71237a41a9}{Jugador\-Auto} ()
+\item 
+\hyperlink{classJugadorAuto_a0c2bc2690a8e6ba93b05a83b9310a03e}{Jugador\-Auto} (const \hyperlink{classTablero}{Tablero} \&t)
+\item 
+\hyperlink{classArbolGeneral}{Arbol\-General}$<$ \hyperlink{classTablero}{Tablero} $>$ \hyperlink{classJugadorAuto_a74531aa932becde453fe8667f6455413}{Get\-Arbol} ()
+\item 
+void \hyperlink{classJugadorAuto_a037135d5bad9b9ce107f3d1aeb63b1df}{rellenar\-Tablero} (unsigned profundidad)
+\item 
+void \hyperlink{classJugadorAuto_ac1c2056f753f8f09d2acf9a72e822fb2}{actualizar} (\hyperlink{classTablero}{Tablero} tab)
+\item 
+unsigned \hyperlink{classJugadorAuto_ab73b8f7888e024b14391fc5392597fdd}{metrica\-\_\-defensiva\-\_\-simple} ()
+\item 
+unsigned \hyperlink{classJugadorAuto_aa2b7fd12be957eaf93c4ca53a452c66b}{metrica\-\_\-defensiva} ()
+\item 
+unsigned \hyperlink{classJugadorAuto_a0a49b8f33fafc9ef328c781472f3017a}{metrica\-\_\-ofensiva} ()
+\end{DoxyCompactItemize}
+\subsubsection*{Métodos privados}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classJugadorAuto_ae90fa3f90f9f0357a1e04512e1352f80}{rellenar\-Nodo} (\hyperlink{classArbolGeneral}{Arbol\-General}$<$ \hyperlink{classTablero}{Tablero} $>$\-::Nodo n)
+\item 
+void \hyperlink{classJugadorAuto_add87179bcda9c297dfe06ca327a3de84}{rellenar\-Nodo\-Profundidad} (\hyperlink{classArbolGeneral}{Arbol\-General}$<$ \hyperlink{classTablero}{Tablero} $>$\-::Nodo n, unsigned profundidad)
+\item 
+const \hyperlink{classArbolGeneral}{Arbol\-General}$<$ \hyperlink{classTablero}{Tablero} $>$\-::Nodo \hyperlink{classJugadorAuto_ace20f5c31c291f99491df06b356ae37d}{buscar\-Nodo} (\hyperlink{classArbolGeneral}{Arbol\-General}$<$ \hyperlink{classTablero}{Tablero} $>$\-::Nodo n, \hyperlink{classTablero}{Tablero} tab) const 
+\item 
+const \hyperlink{classArbolGeneral}{Arbol\-General}$<$ \hyperlink{classTablero}{Tablero} $>$\-::Nodo \hyperlink{classJugadorAuto_aeeda871eb999ffc3e9d4a87cdcc01e7d}{buscar\-Nodo\-Profundidad} (\hyperlink{classArbolGeneral}{Arbol\-General}$<$ \hyperlink{classTablero}{Tablero} $>$\-::Nodo n, \hyperlink{classTablero}{Tablero} tab, int profundidad) const 
+\item 
+int \hyperlink{classJugadorAuto_ac549b60abbbae7245321cf7436382de6}{gana} (\hyperlink{classArbolGeneral}{Arbol\-General}$<$ \hyperlink{classTablero}{Tablero} $>$\-::Nodo n)
+\item 
+int \hyperlink{classJugadorAuto_a79ebbd4001280b8d81f1bdb8376214e5}{contar\-Num\-Victorias} (\hyperlink{classArbolGeneral}{Arbol\-General}$<$ \hyperlink{classTablero}{Tablero} $>$\-::Nodo n)
+\item 
+int \hyperlink{classJugadorAuto_a131bba1aecfc13b5fc16f3f287fb5f42}{contar\-Num\-Derrotas} (\hyperlink{classArbolGeneral}{Arbol\-General}$<$ \hyperlink{classTablero}{Tablero} $>$\-::Nodo n)
+\end{DoxyCompactItemize}
+\subsubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classArbolGeneral}{Arbol\-General}$<$ \hyperlink{classTablero}{Tablero} $>$ \hyperlink{classJugadorAuto_a0ceb9994f364572f00abf5c490b50319}{arbol}
+\item 
+unsigned \hyperlink{classJugadorAuto_a442a2ba01ebcc71283833176e214b7d3}{max\-\_\-profundidad}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Documentación del constructor y destructor}
+\hypertarget{classJugadorAuto_a28f4b4c52165488379729d71237a41a9}{\index{Jugador\-Auto@{Jugador\-Auto}!Jugador\-Auto@{Jugador\-Auto}}
+\index{Jugador\-Auto@{Jugador\-Auto}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{Jugador\-Auto}]{\setlength{\rightskip}{0pt plus 5cm}Jugador\-Auto\-::\-Jugador\-Auto (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classJugadorAuto_a28f4b4c52165488379729d71237a41a9}
+\hypertarget{classJugadorAuto_a0c2bc2690a8e6ba93b05a83b9310a03e}{\index{Jugador\-Auto@{Jugador\-Auto}!Jugador\-Auto@{Jugador\-Auto}}
+\index{Jugador\-Auto@{Jugador\-Auto}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{Jugador\-Auto}]{\setlength{\rightskip}{0pt plus 5cm}Jugador\-Auto\-::\-Jugador\-Auto (
+\begin{DoxyParamCaption}
+\item[{const {\bf Tablero} \&}]{t}
+\end{DoxyParamCaption}
+)}}\label{classJugadorAuto_a0c2bc2690a8e6ba93b05a83b9310a03e}
+
+
+\subsubsection{Documentación de las funciones miembro}
+\hypertarget{classJugadorAuto_ac1c2056f753f8f09d2acf9a72e822fb2}{\index{Jugador\-Auto@{Jugador\-Auto}!actualizar@{actualizar}}
+\index{actualizar@{actualizar}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{actualizar}]{\setlength{\rightskip}{0pt plus 5cm}void Jugador\-Auto\-::actualizar (
+\begin{DoxyParamCaption}
+\item[{{\bf Tablero}}]{tab}
+\end{DoxyParamCaption}
+)}}\label{classJugadorAuto_ac1c2056f753f8f09d2acf9a72e822fb2}
+\hypertarget{classJugadorAuto_ace20f5c31c291f99491df06b356ae37d}{\index{Jugador\-Auto@{Jugador\-Auto}!buscar\-Nodo@{buscar\-Nodo}}
+\index{buscar\-Nodo@{buscar\-Nodo}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{buscar\-Nodo}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Arbol\-General}$<${\bf Tablero}$>$\-::Nodo Jugador\-Auto\-::buscar\-Nodo (
+\begin{DoxyParamCaption}
+\item[{{\bf Arbol\-General}$<$ {\bf Tablero} $>$\-::Nodo}]{n, }
+\item[{{\bf Tablero}}]{tab}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}}\label{classJugadorAuto_ace20f5c31c291f99491df06b356ae37d}
+\hypertarget{classJugadorAuto_aeeda871eb999ffc3e9d4a87cdcc01e7d}{\index{Jugador\-Auto@{Jugador\-Auto}!buscar\-Nodo\-Profundidad@{buscar\-Nodo\-Profundidad}}
+\index{buscar\-Nodo\-Profundidad@{buscar\-Nodo\-Profundidad}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{buscar\-Nodo\-Profundidad}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Arbol\-General}$<${\bf Tablero}$>$\-::Nodo Jugador\-Auto\-::buscar\-Nodo\-Profundidad (
+\begin{DoxyParamCaption}
+\item[{{\bf Arbol\-General}$<$ {\bf Tablero} $>$\-::Nodo}]{n, }
+\item[{{\bf Tablero}}]{tab, }
+\item[{int}]{profundidad}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}}\label{classJugadorAuto_aeeda871eb999ffc3e9d4a87cdcc01e7d}
+\hypertarget{classJugadorAuto_a131bba1aecfc13b5fc16f3f287fb5f42}{\index{Jugador\-Auto@{Jugador\-Auto}!contar\-Num\-Derrotas@{contar\-Num\-Derrotas}}
+\index{contar\-Num\-Derrotas@{contar\-Num\-Derrotas}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{contar\-Num\-Derrotas}]{\setlength{\rightskip}{0pt plus 5cm}int Jugador\-Auto\-::contar\-Num\-Derrotas (
+\begin{DoxyParamCaption}
+\item[{{\bf Arbol\-General}$<$ {\bf Tablero} $>$\-::Nodo}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classJugadorAuto_a131bba1aecfc13b5fc16f3f287fb5f42}
+\hypertarget{classJugadorAuto_a79ebbd4001280b8d81f1bdb8376214e5}{\index{Jugador\-Auto@{Jugador\-Auto}!contar\-Num\-Victorias@{contar\-Num\-Victorias}}
+\index{contar\-Num\-Victorias@{contar\-Num\-Victorias}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{contar\-Num\-Victorias}]{\setlength{\rightskip}{0pt plus 5cm}int Jugador\-Auto\-::contar\-Num\-Victorias (
+\begin{DoxyParamCaption}
+\item[{{\bf Arbol\-General}$<$ {\bf Tablero} $>$\-::Nodo}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classJugadorAuto_a79ebbd4001280b8d81f1bdb8376214e5}
+\hypertarget{classJugadorAuto_ac549b60abbbae7245321cf7436382de6}{\index{Jugador\-Auto@{Jugador\-Auto}!gana@{gana}}
+\index{gana@{gana}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{gana}]{\setlength{\rightskip}{0pt plus 5cm}int Jugador\-Auto\-::gana (
+\begin{DoxyParamCaption}
+\item[{{\bf Arbol\-General}$<$ {\bf Tablero} $>$\-::Nodo}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classJugadorAuto_ac549b60abbbae7245321cf7436382de6}
+\hypertarget{classJugadorAuto_a74531aa932becde453fe8667f6455413}{\index{Jugador\-Auto@{Jugador\-Auto}!Get\-Arbol@{Get\-Arbol}}
+\index{Get\-Arbol@{Get\-Arbol}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{Get\-Arbol}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Arbol\-General}$<${\bf Tablero}$>$ Jugador\-Auto\-::\-Get\-Arbol (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classJugadorAuto_a74531aa932becde453fe8667f6455413}
+\hypertarget{classJugadorAuto_aa2b7fd12be957eaf93c4ca53a452c66b}{\index{Jugador\-Auto@{Jugador\-Auto}!metrica\-\_\-defensiva@{metrica\-\_\-defensiva}}
+\index{metrica\-\_\-defensiva@{metrica\-\_\-defensiva}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{metrica\-\_\-defensiva}]{\setlength{\rightskip}{0pt plus 5cm}unsigned Jugador\-Auto\-::metrica\-\_\-defensiva (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classJugadorAuto_aa2b7fd12be957eaf93c4ca53a452c66b}
+\hypertarget{classJugadorAuto_ab73b8f7888e024b14391fc5392597fdd}{\index{Jugador\-Auto@{Jugador\-Auto}!metrica\-\_\-defensiva\-\_\-simple@{metrica\-\_\-defensiva\-\_\-simple}}
+\index{metrica\-\_\-defensiva\-\_\-simple@{metrica\-\_\-defensiva\-\_\-simple}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{metrica\-\_\-defensiva\-\_\-simple}]{\setlength{\rightskip}{0pt plus 5cm}unsigned Jugador\-Auto\-::metrica\-\_\-defensiva\-\_\-simple (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classJugadorAuto_ab73b8f7888e024b14391fc5392597fdd}
+\hypertarget{classJugadorAuto_a0a49b8f33fafc9ef328c781472f3017a}{\index{Jugador\-Auto@{Jugador\-Auto}!metrica\-\_\-ofensiva@{metrica\-\_\-ofensiva}}
+\index{metrica\-\_\-ofensiva@{metrica\-\_\-ofensiva}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{metrica\-\_\-ofensiva}]{\setlength{\rightskip}{0pt plus 5cm}unsigned Jugador\-Auto\-::metrica\-\_\-ofensiva (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classJugadorAuto_a0a49b8f33fafc9ef328c781472f3017a}
+\hypertarget{classJugadorAuto_ae90fa3f90f9f0357a1e04512e1352f80}{\index{Jugador\-Auto@{Jugador\-Auto}!rellenar\-Nodo@{rellenar\-Nodo}}
+\index{rellenar\-Nodo@{rellenar\-Nodo}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{rellenar\-Nodo}]{\setlength{\rightskip}{0pt plus 5cm}void Jugador\-Auto\-::rellenar\-Nodo (
+\begin{DoxyParamCaption}
+\item[{{\bf Arbol\-General}$<$ {\bf Tablero} $>$\-::Nodo}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classJugadorAuto_ae90fa3f90f9f0357a1e04512e1352f80}
+\hypertarget{classJugadorAuto_add87179bcda9c297dfe06ca327a3de84}{\index{Jugador\-Auto@{Jugador\-Auto}!rellenar\-Nodo\-Profundidad@{rellenar\-Nodo\-Profundidad}}
+\index{rellenar\-Nodo\-Profundidad@{rellenar\-Nodo\-Profundidad}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{rellenar\-Nodo\-Profundidad}]{\setlength{\rightskip}{0pt plus 5cm}void Jugador\-Auto\-::rellenar\-Nodo\-Profundidad (
+\begin{DoxyParamCaption}
+\item[{{\bf Arbol\-General}$<$ {\bf Tablero} $>$\-::Nodo}]{n, }
+\item[{unsigned}]{profundidad}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classJugadorAuto_add87179bcda9c297dfe06ca327a3de84}
+\hypertarget{classJugadorAuto_a037135d5bad9b9ce107f3d1aeb63b1df}{\index{Jugador\-Auto@{Jugador\-Auto}!rellenar\-Tablero@{rellenar\-Tablero}}
+\index{rellenar\-Tablero@{rellenar\-Tablero}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{rellenar\-Tablero}]{\setlength{\rightskip}{0pt plus 5cm}void Jugador\-Auto\-::rellenar\-Tablero (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{profundidad}
+\end{DoxyParamCaption}
+)}}\label{classJugadorAuto_a037135d5bad9b9ce107f3d1aeb63b1df}
+
+
+\subsubsection{Documentación de los datos miembro}
+\hypertarget{classJugadorAuto_a0ceb9994f364572f00abf5c490b50319}{\index{Jugador\-Auto@{Jugador\-Auto}!arbol@{arbol}}
+\index{arbol@{arbol}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{arbol}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Arbol\-General}$<${\bf Tablero}$>$ Jugador\-Auto\-::arbol\hspace{0.3cm}{\ttfamily [private]}}}\label{classJugadorAuto_a0ceb9994f364572f00abf5c490b50319}
+\hypertarget{classJugadorAuto_a442a2ba01ebcc71283833176e214b7d3}{\index{Jugador\-Auto@{Jugador\-Auto}!max\-\_\-profundidad@{max\-\_\-profundidad}}
+\index{max\-\_\-profundidad@{max\-\_\-profundidad}!JugadorAuto@{Jugador\-Auto}}
+\paragraph[{max\-\_\-profundidad}]{\setlength{\rightskip}{0pt plus 5cm}unsigned Jugador\-Auto\-::max\-\_\-profundidad\hspace{0.3cm}{\ttfamily [private]}}}\label{classJugadorAuto_a442a2ba01ebcc71283833176e214b7d3}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\-:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{JugadorAuto_8hpp}{Jugador\-Auto.\-hpp}\end{DoxyCompactItemize}

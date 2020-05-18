@@ -1,0 +1,60 @@
+
+
+*******************************************************************************
+Sat Oct 15 22:34:22 2016
+
+
+FIT:    data read from "tiempos_ordenacion.dat"
+        format = z
+        x range restricted to [-1.21080 : 1.60683]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Sat Oct 15 22:38:25 2016
+
+
+FIT:    data read from "tiempos7.dat"
+        format = z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.13744e+18       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.32722e+08
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 13 iterations the fit converged.
+final sum of squares of residuals : 8.55089e-11
+rel. change during last iteration : -3.28531e-11
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.62355e-06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.13772e-11
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -5.93343e-14     +/- 2.04e-14     (34.39%)
+b               = 5.92073e-09      +/- 6.245e-10    (10.55%)
+c               = 3.89436e-06      +/- 3.918e-06    (100.6%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.956  1.000 
+c               0.632 -0.790  1.000 

@@ -1,0 +1,254 @@
+\hypertarget{classArbolGeneral_1_1preorden__iterador}{\subsection{Referencia de la Clase Arbol\-General$<$ Tbase $>$\-:\-:preorden\-\_\-iterador}
+\label{classArbolGeneral_1_1preorden__iterador}\index{Arbol\-General$<$ Tbase $>$\-::preorden\-\_\-iterador@{Arbol\-General$<$ Tbase $>$\-::preorden\-\_\-iterador}}
+}
+
+
+{\ttfamily \#include $<$Arbol\-General.\-hpp$>$}
+
+\subsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classArbolGeneral_1_1preorden__iterador_a1ad7d0b716beb169de08516187b002e4}{preorden\-\_\-iterador} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto. \end{DoxyCompactList}\item 
+\hyperlink{classArbolGeneral_1_1preorden__iterador_a3b2071c95cde719c132e53f1a8838bdb}{preorden\-\_\-iterador} (const \hyperlink{classArbolGeneral_a12cc1b74a9095d89bc7334290d332f7a}{Nodo} \&n)
+\begin{DoxyCompactList}\small\item\em Constructor con nodo. \end{DoxyCompactList}\item 
+\hyperlink{classArbolGeneral_1_1preorden__iterador_a4d412bb22cc8e2aebcb2bbefb0b78a4b}{preorden\-\_\-iterador} (const \hyperlink{classArbolGeneral_1_1preorden__iterador}{preorden\-\_\-iterador} \&i)
+\begin{DoxyCompactList}\small\item\em Constructor de copia. \end{DoxyCompactList}\item 
+const Tbase \& \hyperlink{classArbolGeneral_1_1preorden__iterador_a1c05242e721803c34510916d04968f54}{operator$\ast$} () const 
+\begin{DoxyCompactList}\small\item\em Acceso a la información del nodo. \end{DoxyCompactList}\item 
+Tbase \& \hyperlink{classArbolGeneral_1_1preorden__iterador_a2336e1008cac3a859337da8fc24075d0}{operator$\ast$} ()
+\item 
+bool \hyperlink{classArbolGeneral_1_1preorden__iterador_a40ce7061c6632d2c83d31ac7d7eb5772}{operator==} (const \hyperlink{classArbolGeneral_1_1preorden__iterador}{preorden\-\_\-iterador} \&n)
+\begin{DoxyCompactList}\small\item\em Operación de igualdad entre dos posiciones. \end{DoxyCompactList}\item 
+bool \hyperlink{classArbolGeneral_1_1preorden__iterador_a10082c5dc98b2878518a8d49032056a7}{operator!=} (const \hyperlink{classArbolGeneral_1_1preorden__iterador}{preorden\-\_\-iterador} \&n)
+\begin{DoxyCompactList}\small\item\em Operación de desigualdad entre dos posiciones. \end{DoxyCompactList}\item 
+\hyperlink{classArbolGeneral_1_1preorden__iterador}{preorden\-\_\-iterador} \hyperlink{classArbolGeneral_1_1preorden__iterador_af6da79d49b40e79f7e8108bea80d15dd}{padre} ()
+\begin{DoxyCompactList}\small\item\em Nodo del padre. \end{DoxyCompactList}\item 
+\hyperlink{classArbolGeneral_1_1preorden__iterador}{preorden\-\_\-iterador} \hyperlink{classArbolGeneral_1_1preorden__iterador_adb5df08e17d808c2cc730d8652265422}{izquierda} ()
+\begin{DoxyCompactList}\small\item\em Nodo del hijo. \end{DoxyCompactList}\item 
+\hyperlink{classArbolGeneral_1_1preorden__iterador}{preorden\-\_\-iterador} \hyperlink{classArbolGeneral_1_1preorden__iterador_ae112223697d9ffc1cdb9454436a8acd1}{hermano} ()
+\begin{DoxyCompactList}\small\item\em Nodo del hermano. \end{DoxyCompactList}\item 
+bool \hyperlink{classArbolGeneral_1_1preorden__iterador_a41286b60f0285afb9852679acb42c0b6}{nulo} ()
+\begin{DoxyCompactList}\small\item\em Informa de si es nulo. \end{DoxyCompactList}\item 
+\hyperlink{classArbolGeneral_1_1preorden__iterador}{preorden\-\_\-iterador} \& \hyperlink{classArbolGeneral_1_1preorden__iterador_a6ce61fb0ab8c1b0aa3bd91266618eeb5}{operator++} ()
+\begin{DoxyCompactList}\small\item\em Siguiente elemento.  Devuelve un iterador al siguiente elemento en preorden. \end{DoxyCompactList}\item 
+\hyperlink{classArbolGeneral_1_1preorden__iterador}{preorden\-\_\-iterador} \& \hyperlink{classArbolGeneral_1_1preorden__iterador_a79952609e35dd16830356a19b404abba}{operator-\/-\/} ()
+\begin{DoxyCompactList}\small\item\em Anterior elemento. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classArbolGeneral_a12cc1b74a9095d89bc7334290d332f7a}{Nodo} \hyperlink{classArbolGeneral_1_1preorden__iterador_afac01ba5fdc1e10c2a808d92f1dbddaf}{p}
+\end{DoxyCompactItemize}
+\subsubsection*{Amigas}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classArbolGeneral_1_1preorden__iterador_a9c06e31b7c3e0d4ee5b03003d32935a5}{Arbol\-General}
+\item 
+class \hyperlink{classArbolGeneral_1_1preorden__iterador_ad7df6535fb84021c7c3804850af9fdcd}{reverse\-\_\-preorden\-\_\-iterador}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Documentación del constructor y destructor}
+\hypertarget{classArbolGeneral_1_1preorden__iterador_a1ad7d0b716beb169de08516187b002e4}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!preorden\-\_\-iterador@{preorden\-\_\-iterador}}
+\index{preorden\-\_\-iterador@{preorden\-\_\-iterador}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{preorden\-\_\-iterador}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ {\bf Arbol\-General}$<$ Tbase $>$\-::preorden\-\_\-iterador\-::preorden\-\_\-iterador (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classArbolGeneral_1_1preorden__iterador_a1ad7d0b716beb169de08516187b002e4}
+
+
+Constructor por defecto. 
+
+\hypertarget{classArbolGeneral_1_1preorden__iterador_a3b2071c95cde719c132e53f1a8838bdb}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!preorden\-\_\-iterador@{preorden\-\_\-iterador}}
+\index{preorden\-\_\-iterador@{preorden\-\_\-iterador}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{preorden\-\_\-iterador}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ {\bf Arbol\-General}$<$ Tbase $>$\-::preorden\-\_\-iterador\-::preorden\-\_\-iterador (
+\begin{DoxyParamCaption}
+\item[{const {\bf Nodo} \&}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classArbolGeneral_1_1preorden__iterador_a3b2071c95cde719c132e53f1a8838bdb}
+
+
+Constructor con nodo. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em n} & nodo que se va a copiar. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classArbolGeneral_1_1preorden__iterador_a4d412bb22cc8e2aebcb2bbefb0b78a4b}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!preorden\-\_\-iterador@{preorden\-\_\-iterador}}
+\index{preorden\-\_\-iterador@{preorden\-\_\-iterador}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{preorden\-\_\-iterador}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ {\bf Arbol\-General}$<$ Tbase $>$\-::preorden\-\_\-iterador\-::preorden\-\_\-iterador (
+\begin{DoxyParamCaption}
+\item[{const {\bf preorden\-\_\-iterador} \&}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classArbolGeneral_1_1preorden__iterador_a4d412bb22cc8e2aebcb2bbefb0b78a4b}
+
+
+Constructor de copia. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em i} & iterador que se va a copiar. \\
+\hline
+\end{DoxyParams}
+
+
+\subsubsection{Documentación de las funciones miembro}
+\hypertarget{classArbolGeneral_1_1preorden__iterador_ae112223697d9ffc1cdb9454436a8acd1}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!hermano@{hermano}}
+\index{hermano@{hermano}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{hermano}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ {\bf preorden\-\_\-iterador} {\bf Arbol\-General}$<$ Tbase $>$\-::preorden\-\_\-iterador\-::hermano (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classArbolGeneral_1_1preorden__iterador_ae112223697d9ffc1cdb9454436a8acd1}
+
+
+Nodo del hermano. 
+
+\begin{DoxyReturn}{Devuelve}
+devuelve un nodo apuntando al hermano de la derecha. 
+\end{DoxyReturn}
+\hypertarget{classArbolGeneral_1_1preorden__iterador_adb5df08e17d808c2cc730d8652265422}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!izquierda@{izquierda}}
+\index{izquierda@{izquierda}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{izquierda}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ {\bf preorden\-\_\-iterador} {\bf Arbol\-General}$<$ Tbase $>$\-::preorden\-\_\-iterador\-::izquierda (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classArbolGeneral_1_1preorden__iterador_adb5df08e17d808c2cc730d8652265422}
+
+
+Nodo del hijo. 
+
+\begin{DoxyReturn}{Devuelve}
+devuelve un nodo apuntando al hijo más a la izquierda. 
+\end{DoxyReturn}
+\hypertarget{classArbolGeneral_1_1preorden__iterador_a41286b60f0285afb9852679acb42c0b6}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!nulo@{nulo}}
+\index{nulo@{nulo}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{nulo}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ bool {\bf Arbol\-General}$<$ Tbase $>$\-::preorden\-\_\-iterador\-::nulo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classArbolGeneral_1_1preorden__iterador_a41286b60f0285afb9852679acb42c0b6}
+
+
+Informa de si es nulo. 
+
+\begin{DoxyReturn}{Devuelve}
+true si es nulo, false en otro caso. 
+\end{DoxyReturn}
+\hypertarget{classArbolGeneral_1_1preorden__iterador_a10082c5dc98b2878518a8d49032056a7}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!operator!=@{operator!=}}
+\index{operator!=@{operator!=}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{operator!=}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ bool {\bf Arbol\-General}$<$ Tbase $>$\-::preorden\-\_\-iterador\-::operator!= (
+\begin{DoxyParamCaption}
+\item[{const {\bf preorden\-\_\-iterador} \&}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classArbolGeneral_1_1preorden__iterador_a10082c5dc98b2878518a8d49032056a7}
+
+
+Operación de desigualdad entre dos posiciones. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em n} & nodo con el que se compara. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true si son distintos false en caso contrario. 
+\end{DoxyReturn}
+\hypertarget{classArbolGeneral_1_1preorden__iterador_a1c05242e721803c34510916d04968f54}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{operator$\ast$}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ const Tbase\& {\bf Arbol\-General}$<$ Tbase $>$\-::preorden\-\_\-iterador\-::operator$\ast$ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classArbolGeneral_1_1preorden__iterador_a1c05242e721803c34510916d04968f54}
+
+
+Acceso a la información del nodo. 
+
+\hypertarget{classArbolGeneral_1_1preorden__iterador_a2336e1008cac3a859337da8fc24075d0}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{operator$\ast$}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ Tbase\& {\bf Arbol\-General}$<$ Tbase $>$\-::preorden\-\_\-iterador\-::operator$\ast$ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classArbolGeneral_1_1preorden__iterador_a2336e1008cac3a859337da8fc24075d0}
+\hypertarget{classArbolGeneral_1_1preorden__iterador_a6ce61fb0ab8c1b0aa3bd91266618eeb5}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!operator++@{operator++}}
+\index{operator++@{operator++}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{operator++}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ {\bf Arbol\-General}$<$ Tbase $>$\-::{\bf preorden\-\_\-iterador} \& {\bf Arbol\-General}$<$ Tbase $>$\-::preorden\-\_\-iterador\-::operator++ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classArbolGeneral_1_1preorden__iterador_a6ce61fb0ab8c1b0aa3bd91266618eeb5}
+
+
+Siguiente elemento.  Devuelve un iterador al siguiente elemento en preorden. 
+
+\hypertarget{classArbolGeneral_1_1preorden__iterador_a79952609e35dd16830356a19b404abba}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!operator-\/-\/@{operator-\/-\/}}
+\index{operator-\/-\/@{operator-\/-\/}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{operator-\/-\/}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ {\bf Arbol\-General}$<$ Tbase $>$\-::{\bf preorden\-\_\-iterador} \& {\bf Arbol\-General}$<$ Tbase $>$\-::preorden\-\_\-iterador\-::operator-\/-\/ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classArbolGeneral_1_1preorden__iterador_a79952609e35dd16830356a19b404abba}
+
+
+Anterior elemento. 
+
+\begin{DoxyReturn}{Devuelve}
+Devuelv un iterador al elemento anterior en preorden. 
+\end{DoxyReturn}
+\hypertarget{classArbolGeneral_1_1preorden__iterador_a40ce7061c6632d2c83d31ac7d7eb5772}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!operator==@{operator==}}
+\index{operator==@{operator==}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ bool {\bf Arbol\-General}$<$ Tbase $>$\-::preorden\-\_\-iterador\-::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf preorden\-\_\-iterador} \&}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classArbolGeneral_1_1preorden__iterador_a40ce7061c6632d2c83d31ac7d7eb5772}
+
+
+Operación de igualdad entre dos posiciones. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em n} & nodo con el que se compara. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true si son iguales false en caso contrario. 
+\end{DoxyReturn}
+\hypertarget{classArbolGeneral_1_1preorden__iterador_af6da79d49b40e79f7e8108bea80d15dd}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!padre@{padre}}
+\index{padre@{padre}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{padre}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ {\bf preorden\-\_\-iterador} {\bf Arbol\-General}$<$ Tbase $>$\-::preorden\-\_\-iterador\-::padre (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classArbolGeneral_1_1preorden__iterador_af6da79d49b40e79f7e8108bea80d15dd}
+
+
+Nodo del padre. 
+
+\begin{DoxyReturn}{Devuelve}
+Devuelve un nodo apuntando al padre. 
+\end{DoxyReturn}
+
+
+\subsubsection{Documentación de las funciones relacionadas y clases amigas}
+\hypertarget{classArbolGeneral_1_1preorden__iterador_a9c06e31b7c3e0d4ee5b03003d32935a5}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!Arbol\-General@{Arbol\-General}}
+\index{Arbol\-General@{Arbol\-General}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{Arbol\-General}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ friend class {\bf Arbol\-General}\hspace{0.3cm}{\ttfamily [friend]}}}\label{classArbolGeneral_1_1preorden__iterador_a9c06e31b7c3e0d4ee5b03003d32935a5}
+\hypertarget{classArbolGeneral_1_1preorden__iterador_ad7df6535fb84021c7c3804850af9fdcd}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!reverse\-\_\-preorden\-\_\-iterador@{reverse\-\_\-preorden\-\_\-iterador}}
+\index{reverse\-\_\-preorden\-\_\-iterador@{reverse\-\_\-preorden\-\_\-iterador}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{reverse\-\_\-preorden\-\_\-iterador}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ friend class {\bf reverse\-\_\-preorden\-\_\-iterador}\hspace{0.3cm}{\ttfamily [friend]}}}\label{classArbolGeneral_1_1preorden__iterador_ad7df6535fb84021c7c3804850af9fdcd}
+
+
+\subsubsection{Documentación de los datos miembro}
+\hypertarget{classArbolGeneral_1_1preorden__iterador_afac01ba5fdc1e10c2a808d92f1dbddaf}{\index{Arbol\-General\-::preorden\-\_\-iterador@{Arbol\-General\-::preorden\-\_\-iterador}!p@{p}}
+\index{p@{p}!ArbolGeneral::preorden_iterador@{Arbol\-General\-::preorden\-\_\-iterador}}
+\paragraph[{p}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Tbase$>$ {\bf Nodo} {\bf Arbol\-General}$<$ Tbase $>$\-::preorden\-\_\-iterador\-::p\hspace{0.3cm}{\ttfamily [private]}}}\label{classArbolGeneral_1_1preorden__iterador_afac01ba5fdc1e10c2a808d92f1dbddaf}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\-:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{ArbolGeneral_8hpp}{Arbol\-General.\-hpp}\end{DoxyCompactItemize}
